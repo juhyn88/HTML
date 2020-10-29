@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>트랜지션</title>
+    <style>
+        .trl{
+            width: 100px;
+            height: 100px;
+            background-color:rgb(255, 102, 102);
+            margin: 50px;
+            /*transition-property: width, height;*/
+            /*트랜지션 속성-너비,높이*/
+            /*transition-duration: 2s, 1s;*/
+            /*트랜지션 지속 시간 - 2s(2초):너비 변화 */
+            transition: width, height, 2s, 1s;
+        }
+        .trl:hover{
+            width: 200px;
+            height: 120px;
+        }
+    </style>
+</head>
+<body>
+    <div class="trl"></div>
+</body>
+</html>

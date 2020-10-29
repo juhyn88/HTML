@@ -1,0 +1,29 @@
+.prod_list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.prod_list li{
+    position: relative; /*기준이 되는 부모 요소*/
+    float: left;
+    margin: 10px;
+    overflow: hidden;   /*설명글이 보이지 않도록함*/
+}
+.prod_list img{
+    float: left;
+}
+.prod_list .caption{
+    position: absolute;
+    top: 200px;     /*이미지의 높이 만큼 아래로 떨어뜨림*/
+    width: 300px;
+    height: 200px;
+    background: rgb(0, 0, 0, 0.6);
+}
+.prod_list .caption h1, .prod_list .caption p{
+    color: white;
+    text-align: center;
+}
+.prod_list li:hover .caption{
+    transform: translateY(-200px);
+    transition: all 0.3s;
+}

@@ -1,0 +1,27 @@
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.navi{
+    width: 90%;
+    height: 60px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+}
+.navi ul li{
+    display: inline-block;
+    padding: 20px 10px;
+    width: 150px;
+}
+.navi a:link, .navi a:visited{    /*a만 사용해도 된다*/
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.navi a:hover, .navi a:focus{
+    background: rgb(200, 15, 15);
+    color: #fff;
+}
+.navi a:active{
+    background: rgb(215, 234, 255);
+}

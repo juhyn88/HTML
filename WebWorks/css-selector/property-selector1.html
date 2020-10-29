@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>속성 선택자</title>
+    <style>
+        ul li{
+            display: inline-block;
+            margin: 10px;
+            list-style: none;
+            width: 120px;
+        }
+        li a{
+            text-decoration: none;
+            color: black;
+            padding: 5px 10px;
+            font-size: 0.9em;
+        }
+        a[href]{    /*속성 선택자-[](대괄호 사용)*/
+            background-color:rgb(200, 143, 20)
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a>메인 메뉴</a></li>
+            <li><a href="#">메뉴 1</a></li>
+            <li><a href="#">메뉴 2</a></li>
+            <li><a href="#">메뉴 3</a></li>
+            <li><a href="#">메뉴 4</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

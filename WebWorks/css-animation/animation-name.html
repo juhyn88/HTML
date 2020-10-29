@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            float: left;
+            margin: 50px;
+        }
+        #box1{
+            background-color: red;
+            animation-name: shape;
+            animation-duration: 3s;
+            animation-iteration-count: normal;
+        }
+        #box2{
+            background-color: yellow;
+            animation-name: rotate;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;            
+            animation-direction: alternate;
+        }
+        @keyframes shape{
+            
+        }
+        @keyframes rotate{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(80deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="box1"></div>
+    <div id="box2"></div>
+</body>
+</html>
