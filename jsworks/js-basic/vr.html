@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>variable</title>
+</head>
+<body>
+    <script>
+        var userId = "happy2020";       //문자열 변수
+        console.log("userId : " + userId);
+
+        var num = 100;                   //정수형 변수 선언
+        console.log("num : " + num);
+
+        var realNum = 3.14;                //실수형 변수 선언
+        console.log("readlNum : " + realNum);
+
+        var run = false;
+        console.log("run : " + run);
+
+        //함수형 변수 선언
+        var square = function(x){
+            return x * x;
+        }
+        console.log("square :" + square(4));
+
+        //자료형 확인 typeof()
+        console.log("userIdType : " + typeof(userId));;
+        console.log("numType : " + typeof(num));;
+        console.log("realNumType : " + typeof(realNum));
+        console.log("runType : " + typeof(run));
+        console.log("squareType : " + typeof(square));
+
+    </script>
+</body>
+</html>

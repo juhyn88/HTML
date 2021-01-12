@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>나이 계산 프로그램</title>
+    <style>
+     
+    </style>
+</head>
+<body>
+    <script>
+        //지역변수의 유효 범위
+        function theFunc(){
+            var num = 1;
+            num++
+            return num;
+        }
+
+        var value = theFunc();      //호출
+        console.log("value : " + value);
+        console.log("num : " + num);    //theFunc()의 num은 이미 소멸했음.
+    </script>
+   
+</body>
+</html>

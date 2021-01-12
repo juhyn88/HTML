@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>롤링 갤러리 만들기</title>
+    <style> 
+        #container{text-align: center;}
+        p img{vertical-align: middle;}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>이미지 넘기기</h1>
+        <p>
+            <a href="#prev" onclick="prevGallery()"><imc src = "images/left_btn.png"</a>
+            <img src = "images\img1.jpg" id="gallery">
+            <a href="#next" onclick="nextGallery()"><imc src = "images/right_btn.png"</a>
+        </p>
+    </div>
+    
+    <script src="js/gallery.js"></script>
+</body>
+</html>
